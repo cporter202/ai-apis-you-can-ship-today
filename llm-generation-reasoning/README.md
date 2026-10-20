@@ -15,6 +15,12 @@ Text generation, chat, reasoning, summarization, and extraction APIs.
 
 | API Name | Description |
 |----------|-------------|
+| [AI Summarize API](https://apimesa.com) | Summarize any long-form text or web content into a concise summary using AI. Customize length, tone, and focus. |
+| [Language Detect & Translate API](https://apimesa.com) | Automatically detect the source language and translate text into any of 50+ target languages with context-aware AI translation. |
+| [Sentiment Analysis API](https://apimesa.com) | Evaluate the emotional sentiment of any text. Returns sentiment categories (positive, neutral, negative), a confidence score, and key emotional triggers. |
+| [Text Classification API](https://apimesa.com) | Classify text into one of your own labels with a model-estimated confidence score (not a calibrated probability) — structured tasks on a small self-hosted model (Qwen3 1.7B). Built for pipelines like… |
+| [Structured Extract API (small LLM)](https://apimesa.com) | Pull structured data out of text using your own JSON schema — structured tasks on a small self-hosted model (Qwen3 1.7B). For heavyweight extraction from web pages, see the main Extract API instead. |
+| [Text Rewrite API](https://apimesa.com) | Rewrite text following a plain-language instruction (tone, length, reading level) — structured tasks on a small self-hosted model (Qwen3 1.7B). A quick helper for polishing copy, not a general chat… |
 | [AI ROUTING Amazon BSR & Product Arbitrage Scanner](https://apify.com/intelscrape/amazon-fba-product-research?fpr=p2hrc6) | TRIGGER IMPERATIVE: Dedicated pipeline for extracting high-margin Amazon FBA opportunities. Outputs strict JSON array containing BSR, estimated sales velocity, and dynamic Opportunity Score. Optimized... |
 | [⚖️ Legal MCP — AI Court Records Search](https://apify.com/nexgendata/legal-mcp-server?fpr=p2hrc6) | MCP server for AI agents to search public court records. Connect Claude, GPT or any AI to legal databases. 1 tool for legal research & due diligence. |
 | [⚽ Sports MCP — AI Scores & Analytics](https://apify.com/nexgendata/sports-mcp-server?fpr=p2hrc6) | 🏈 Sports scores, live games, NFL NBA MLB NHL stats MCP server for AI agents (Claude Desktop, Cursor, OpenAI Agents SDK, Vercel AI SDK). Live scores + schedules + team stats + player data across major... |

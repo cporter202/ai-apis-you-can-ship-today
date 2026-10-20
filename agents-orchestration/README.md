@@ -15,6 +15,10 @@ Autonomous agents, orchestration layers, tool-using assistants, and workflows.
 
 | API Name | Description |
 |----------|-------------|
+| [Semantic Search: Create Collection](https://apimesa.com) | Create a private vector collection for semantic search — your documents live in their own namespaced collection that no other customer can see. Storage-based pricing may apply later. |
+| [Semantic Search: Index Documents](https://apimesa.com) | Embed and index documents into your private collection — send plain text, we handle embeddings (bge-small-en-v1.5) and storage. Re-indexing the same document ID overwrites it. |
+| [Semantic Search: Query](https://apimesa.com) | Search your collection by meaning, not keywords — send a question in plain text and get the most similar documents back with scores. |
+| [AI Web Search Q&A](https://apimesa.com) | Ask anything and get a direct answer grounded in live-scraped web sources, with cited titles and URLs. |
 | [✈️ Google Flights Scraper](https://apify.com/skootle/google-flights-scraper?fpr=p2hrc6) | Find the cheapest flights for any route in one API call. Returns 5 best fares + 25-50 alternates: airline, price, times, stops, layovers, bookable links. For travel agencies, AI flight agents, and... |
 | [🏛️ Business Registration Lookup — State Filing Records](https://apify.com/nexgendata/business-registration-lookup?fpr=p2hrc6) | Search U.S. state business registrations, corporate filings, LLC records and entity-status data. Verify businesses, surface officers and registered agents, and pull filing history for KYC, due... |
 | [🏢 Enterprise MCP Gateway — 26 AI Servers in One](https://apify.com/nexgendata/enterprise-mcp-gateway?fpr=p2hrc6) | All-in-one MCP gateway bundling 26 specialized data servers — finance, real estate, jobs, legal, news, sports, and more. One endpoint, one connection, full access. Built for AI agents at scale. |

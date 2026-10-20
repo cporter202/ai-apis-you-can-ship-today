@@ -15,6 +15,10 @@ Computer vision, image/video generation, OCR, and multimodal AI.
 
 | API Name | Description |
 |----------|-------------|
+| [Image Segmentation (SAM) API](https://apimesa.com) | Segment any object in an image with a click (point) or drag (box) prompt, powered by Meta's Segment Anything model (ViT-B). Async: returns a job id in ~1 second — poll the status endpoint until the… |
+| [Image Segmentation Status](https://apimesa.com) | Poll a segmentation job until its mask is ready. Returns pending while the job is queued/running, done with the base64 PNG mask, or failed with the error. Polling is free. |
+| [Zero-Shot Image Classification API](https://apimesa.com) | Classify any image into your own custom labels with OpenAI CLIP (ViT-B/32) — no training needed, just pass 2-20 labels and get ranked probability scores. Results are cached for 24 hours. |
+| [Depth Estimation API](https://apimesa.com) | Turn any single photo into a depth map with Depth-Anything-V2 (SMALL) — returns a grayscale PNG where brighter pixels are closer. Results are cached for 24 hours. |
 | [🇨🇳 Bilibili Video Comments · B站视频评论采集](https://apify.com/nexgendata/bilibili-video-comments?fpr=p2hrc6) | Scrape Bilibili video comments via the current WBI-signed reply API — text, author, level, likes, reply count, ISO timestamp. Pass BVIDs/URLs, set max per video, optional anonymization. For AI... |
 | [🌟 Youtube Transcript Scraper - $0.5 per 1k](https://apify.com/supreme_coder/youtube-transcript-scraper?fpr=p2hrc6) | Scrape youtube transcripts in bulk. Provides videos details and transcript in different formats |
 | [🏢 Crexi CRE Scraper](https://apify.com/skootle/crexi-commercial-real-estate-scraper?fpr=p2hrc6) | Scrape Crexi commercial real estate listings into 50+ fields per listing: asking price, cap rate, NOI, building size, lot size, year built, asset class, broker contacts, geo coordinates, photos.... |
